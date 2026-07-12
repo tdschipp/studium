@@ -17,7 +17,7 @@ machNeu <- function(name, semester , AB, Level, where = "zuHause", path){
     path <- "/home/tobiasds/Dokumente/Psychologie Bachelor/"
     name <- "schipp"
   } else if(name == "Finja"){
-    path <- "---"
+    path <- "C://Users/fengs/Downloads/studium/"
     name <- "mueller"
   }
   if(!requireNamespace("fs")){utils::install.packages("fs")}

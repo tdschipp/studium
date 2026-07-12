@@ -13,6 +13,6 @@ You can install the development version of studium from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools)
+# install.packages("devtools")
 devtools::install_github("tdschipp/studium")
 ```
