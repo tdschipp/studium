@@ -11,7 +11,7 @@
 #' @export
 #'
 #' @examples
-#' machNeu("Finja", 2, 6, 1)
+#' machNeu("Tobi", 2, 6, 1)
 machNeu <- function(name, semester , AB, Level, where = "zuHause", path){
   if(name == "Tobi"){
     path <- "/home/tobiasds/Dokumente/Psychologie Bachelor/"
