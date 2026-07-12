@@ -1,11 +1,18 @@
-Package: studium
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Package: machNeu
+Type: Package
+Title: für studium paar chillige Funktionen
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Tobias", "Schipp",
+      email = "tdschipp@proton.me",
+      role = c("aut", "cre")
+    )
+  )
+Description: Einige kleine Hilfe funktionen fürs Studium: machNeu legt ordner 
+  und Datei an für ein aktuelles Arbeitsblatt.
+License: MIT + file LICENSE
+Imports: fs
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 8.0.0
+LazyData: true
+Config/roxygen2/version: 8.0.0
