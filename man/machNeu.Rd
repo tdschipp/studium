@@ -26,5 +26,5 @@ Nothing. If necessary folders and a file  will be crated.
 Create new AB file
 }
 \examples{
-machNeu("Finja", 2, 6, 1)
+machNeu("Tobi", 2, 6, 1)
 }
