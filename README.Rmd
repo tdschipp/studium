@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 ## Installation
 
-You can install the development version of machNeu from [GitHub](https://github.com/) with:
+You can install the development version of studium from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools)

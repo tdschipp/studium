@@ -9,7 +9,7 @@
 
 ## Installation
 
-You can install the development version of machNeu from
+You can install the development version of studium from
 [GitHub](https://github.com/) with:
 
 ``` r
