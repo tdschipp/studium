@@ -27,10 +27,14 @@ machNeu <- function(name, semester , AB, Level, where = "zuHause", path){
   path = path2
   path2 = paste0(path, "Daten/")
   fs::dir_create(path2)
-  fName = paste0(name,"_arbeitsblatt", AB, "_Level", Level, "_", where, ".R")
+  if(semester == 3) {
+    fName = paste0(name, "arbeitsbatt", AB,".R")
+  } else{
+    fName = paste0(name,"_arbeitsblatt", AB, "_Level", Level, "_", where, ".R")
+  }
   fs::file_create(paste0(path,fName))
   writeLines(
     text = paste0("setwd(\"",path2,"\")"),
     con = paste0(path,fName)
-    )
+  )
 }
